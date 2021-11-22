@@ -4,11 +4,38 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Rock, Paper, Scissors</title>
 
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<header>Rock, Paper, Scissors</header>
+		<div class="scoreboard">
+			<div id="user-label" class="badge">user</div>
+			<div id="comp-label" class="badge">comp</div>
+			<span id="user-score">0</span>:<span id="computer-score">0</span>
+		</div>
+
+		<div class="result">
+			<p>Paper covers rock. You win!</p>
+		</div>
+
+		<div class="choices">
+			<div class="choice" id="r">
+				<img src="images/icons8-hand-rock-96 (1).png" alt="" />
+			</div>
+
+			<div class="choice" id="p">
+				<img src="images/icons8-hand-96.png" alt="" />
+			</div>
+
+			<div class="choice" id="s">
+				<img src="images/icons8-hand-scissors-96.png" alt="" />
+			</div>
+		</div>
+
+		<p id="action-message">Make your move.</p>
+
 		<script src="script.js"></script>
 	</body>
 </html>
