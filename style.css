@@ -15,11 +15,11 @@ header {
 	font-family: Asap, sans-serif;
 	font-size: 600%;
 	border-bottom: 1px solid cyan;
-	color: cyan;
+	color: rgb(8, 2, 61);
 	background-color: rgb(255, 255, 255);
 	padding: 20px;
-	box-shadow: 3px 3px 70px cyan;
-	text-shadow: 10px 5px 12px rgb(8, 2, 61);
+	box-shadow: 3px 3px 20px cyan;
+	text-shadow: 0.5px 0.5px 5px cyan;
 	text-align: center;
 }
 
